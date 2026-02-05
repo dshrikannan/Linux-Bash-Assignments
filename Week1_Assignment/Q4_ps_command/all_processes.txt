@@ -1,0 +1,26 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 21:26 ?        00:00:00 /sbin/init
+root           2       1  0 21:26 ?        00:00:00 /init
+root           7       2  0 21:26 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          61       1  0 21:26 ?        00:00:00 /lib/systemd/systemd-journald
+root          86       1  0 21:26 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+      90       1  0 21:26 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+      91       1  0 21:26 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         194       1  0 21:26 ?        00:00:00 /usr/sbin/cron -f -P
+message+     196       1  0 21:26 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         201       1  0 21:26 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       202       1  0 21:26 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         208       1  0 21:26 ?        00:00:00 /lib/systemd/systemd-logind
+root         215       1  0 21:26 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         222       1  0 21:26 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         228       1  0 21:26 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         300       2  0 21:26 pts/1    00:00:00 /bin/login -f
+dsshrik+     341       1  0 21:26 ?        00:00:00 /lib/systemd/systemd --user
+dsshrik+     342     341  0 21:26 ?        00:00:00 (sd-pam)
+dsshrik+     358     300  0 21:26 pts/1    00:00:00 -bash
+root         496       2  0 21:41 ?        00:00:00 /init
+root         497     496  0 21:41 ?        00:00:00 /init
+dsshrik+     502     497  0 21:41 pts/0    00:00:00 -bash
+root         558       1  0 21:46 ?        00:00:00 /bin/sh /etc/update-motd.d/50-motd-news --force
+root         578     558  0 21:46 ?        00:00:00 wget --timeout 60 -U wget/1.21.2-2ubuntu1.1 Ubuntu/22.04.5/LTS GNU/Linux/6.6.87.2-microsoft-standard-WSL2/x86_64 12th/Gen/Intel(R)/Core(TM)/i7-12700H cloud_id/unknown -O- --content-on-error https://motd.ubuntu.com
+dsshrik+     579     502  0 21:46 pts/0    00:00:00 ps -ef

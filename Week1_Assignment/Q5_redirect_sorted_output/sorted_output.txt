@@ -1,0 +1,5 @@
+total 0
+-rw-r--r-- 1 dsshrikannan dsshrikannan 0 Feb  5 21:49 file4
+-rw-r--r-- 1 dsshrikannan dsshrikannan 0 Feb  5 21:48 file1
+-rw-r--r-- 1 dsshrikannan dsshrikannan 0 Feb  5 21:48 file2
+-rw-r--r-- 1 dsshrikannan dsshrikannan 0 Feb  5 21:48 file3
